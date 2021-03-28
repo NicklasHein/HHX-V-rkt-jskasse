@@ -2,9 +2,48 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Café Corona</title>
+    <link rel="stylesheet" type="text/css" href="Bord.css">
   </head>
   <body>
 <h1>Hvilket bord skal betjenes?</h1>
+<hr/>
+<br/>
+<div class="container">
+  <div class="Bord-1">
+      <button type="button" name="button"><h2>Bord-1</h2></button>
+  </div>
+<br/>
+  <div class="Bord-2">
+      <button type="button" name="button"><h2>Bord-2</h2></button>
+  </div>
+<br/>
+  <div class="Bord-3">
+      <button type="button" name="button"><h2>Bord-3</h2></button>
+  </div>
+<br/>
+  <div class="Bord-4">
+      <button type="button" name="button"><h2>Bord-4</h2></button>
+  </div>
+<br/>
+  <div class="Bord-5">
+      <button type="button" name="button"><h2>Bord-5</h2></button>
+  </div>
+<br/>
+<div class="Afslut">
+  <a href="Index.HTML">
+    <button type="button" name="button"><h2>Afslut</h2></button>
+  </a>
+  <!--forsøg med javascript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+  $(document).on('click', 'div div', function(){$(this).addClass(active).siblings.removeClass('active')
+})
+</script>
+</div>
+
+</div>
+</div>
+
   </body>
 </html>
